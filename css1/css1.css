@@ -1,0 +1,37 @@
+.red{
+
+background-color: red;
+}
+table, td{
+	
+	margin: 0 auto;
+	
+	
+}
+.lp{
+	padding: 90px;
+}
+
+.green{
+	row-height: 20px;
+	background-color: #02F70A;
+}
+.sp{	
+	padding: 2px
+}
+.vlp{
+	padding: 800px;
+}
+table
+{
+	width: 80%;
+}
+.blue{
+	background-color: blue;
+}
+.yellow{
+	background-color: yellow;
+}
+.lightblue{
+	background-color: #08F8D9
+}
