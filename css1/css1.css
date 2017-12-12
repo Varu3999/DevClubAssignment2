@@ -1,23 +1,26 @@
 .red{
 
 background-color: red;
+row-height: 20%;
 }
 table, td{
+
 	
-	margin: 0 auto;
+	margin: 5vh auto;
+	margin-bottom: 0;
 	
 	
 }
 .lp{
-	padding: 90px;
+	height: 20vh;
 }
 
 .green{
-	row-height: 20px;
+	height: 5vh;
 	background-color: #02F70A;
 }
 .sp{	
-	padding: 2px
+	height: 5%;
 }
 .vlp{
 	padding: 800px;
@@ -34,4 +37,7 @@ table
 }
 .lightblue{
 	background-color: #08F8D9
+}
+.h{
+	height: 70vh;
 }

@@ -1,11 +1,12 @@
 body{
-	background-color: black;
-	background-image: url(wallpaper.jpg);
+	
+	
 }
 th{
 	text-align: center;
 	color: white;
 	padding-bottom: 12px;
+	margin-top: 0px;
 }
 table{
 	width: 80vmax;
@@ -17,14 +18,17 @@ table{
 img{
 	border: 1px solid rgba(108, 108, 108, 1);
 	border-radius: 20px;
-	width: 30vmax;
+	width: 25vmax;
 	height: 20vmax;
 }
 td{
-	width: 30vmax;
+	width: 25vmax;
 }
 img:hover{
 	opacity: 1;
 	border-radius: 100%;
 
+}
+div{
+	background-image:repeating-linear-gradient(45deg, rgba(0, 0, 0, 1), rgba(185,185,185,1) 10px);
 }
