@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> TODO </title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Patua+One" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="./todo.css">
+        <link href="https://fonts.googleapis.com/css?family=Bangers|Monoton" rel="stylesheet">
+<style>
+li{
+  font-family: 'Montserrat', sans-serif;
+}
+</style>
+  </head>
+  <body>
+<br>
+<br>
+
+    <h1 id ="head" style ="font-family: 'Bangers', cursive;">TODO <span style="font-family: 'Monoton', cursive;">List!</span></h1>
+    <form action="#" onsubmit="a();return false">
+
+      <input type="text" id = "add" placeholder="ADD" style="font-family: 'Montserrat', sans-serif;"></input>
+      <button id = "submit" ><span class="glyphicon glyphicon-plus"></span></button>
+
+    </form>
+    <div id="superp">
+    <div id = "pending">
+      <h1 style="align: center;font-family: 'Patua One', cursive;">Pending Work</h1>
+<div>
+
+      <ol id = "list">
+
+      </ol>
+
+</div>
+</div>
+</div>
+<div id = "superd">
+<div id="done">
+  <h1 style="font-family: 'Patua One', cursive;">Work Done</h1>
+  <ul id = "donelist">
+
+  </ul>
+
+    <script src = "todo.js"></script>
+  </div>
+</div>
+  </body>
+</html>

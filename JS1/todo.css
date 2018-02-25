@@ -1,0 +1,95 @@
+body{
+  background-image: url("images-2.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#add{
+  font-size: 20px;
+  padding: 5px;
+  height: 40px;
+  width: 26%;
+  margin: 0px;
+  position: absolute;
+  border-radius: 0px 20px 20px 0px;
+  top: 25%;
+  right: 37%;
+}
+#submit{
+  height: 40px;
+  margin:0px;
+  width: 40px;
+  border-radius: 20px;
+  position: absolute;
+  top: 25%;
+  right: 37%;
+}
+
+#superp{
+  position: absolute;
+  top: 35%;
+  left: 15%;
+  width: 30%;
+  background-color: rgba(255,222,0,0.6);
+  height: 60%;
+
+}
+
+#pending{
+
+  top: 35%;
+  left: 15%;
+  width: 100%;
+  background-color: rgba(255,222,0,0.3);
+  max-height: 100%;
+  overflow-y: auto;
+}
+h1{
+  text-align: center;
+}
+#superd{
+  position: absolute;
+  top: 35%;
+  left: 55%;
+  width: 30%;
+  background-color: rgba(255,222,0,0.6);
+  height: 60%;
+
+
+}
+
+#done{
+
+  top: 35%;
+  left: 55%;
+  width: 100%;
+  background-color: rgba(255,222,0,0.3);
+  max-height: 100%;
+  overflow-y: auto;
+
+}
+
+.glyphicon-plus{
+  font-size: 20px;
+  color: blue;
+}
+
+li{
+  font-size: 20px;
+  padding: 5px;
+  margin:5px;
+}
+#del{
+  border-radius: 40px;
+  background-color:  rgba(0,0,0,0);
+  color: red;
+}
+.done{
+  border-radius: 40px;
+  background-color:  rgba(0,0,0,0);
+  color: green;
+}
+#head{
+  font-size: 80px;
+  color: #FF7700;
+}
